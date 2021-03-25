@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>TASK 1: check string properties</h2>
+<form method="POST" action="/task1/">
+    {% csrf_token %}
+    Enter string:
+    <input type="text" name="string">
+    <input type="submit">
+</form>
+<h2>TASK 2: perform integer division</h2>
+<form method="POST" action="/task2/">
+    {% csrf_token %}
+    Enter two numbers:
+    num 1:
+    <input type="number" name="num1">
+    num 2:
+    <input type="number" name="num2">
+    <input type="submit">
+</form>
+<h2>TASK 3: perform complex operations</h2>
+<form method="POST" action="/task3/">
+    {% csrf_token %}
+    Enter two numbers:
+    num 1:
+    <input type="number" name="num1">
+    num 2:
+    <input type="number" name="num2"><br>
+    Enter two numbers:
+    num 3:
+    <input type="number" name="num3">
+    num 4:
+    <input type="number" name="num4"><br>
+
+    <input type="submit">
+</form>
+</body>
+</html>
